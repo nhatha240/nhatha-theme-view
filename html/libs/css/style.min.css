@@ -1,15 +1,1 @@
-
-<body>
-  <background>
-    <div id="f3f3f3"></div>
-  </background>
-  <color>
-    <div id="222222"></div>
-  </color>
-  <box-sizing>
-    <border-box></border-box>
-  </box-sizing>
-  <font-size>
-    <20px></20px>
-  </font-size>
-</body>
+body{background:#f3f3f3;color:#222222;box-sizing:border-box;font-size:20px;font-family:'Roboto', sans-serif}header{background:#222222;color:#ffffff}header .navbar-toggler{background-color:white}.navbar-light .navbar-nav .nav-link{color:#ffffff}.navbar-light .navbar-nav .nav-link:active{color:#ffffff}.navbar-light .navbar-nav .nav-link:hover{color:#ffffff}.Quick-Links .nav-item:not(:last-child) .nav-link::after{content:" |"}.search-bar{width:100%;display:flex;flex-direction:row;justify-content:flex-end;align-self:baseline}.search-bar .search-form form{margin:0;background:#ffffff;border-radius:5px;display:flex;flex-direction:row}.search-bar .search-form form .input-search{margin:5px;padding:0 10px}.search-bar .search-form form .input-search input{border:initial}.search-bar .search-form form .input-search input::placeholder{color:#b9b9b9}.search-bar .search-form form .input-search input::focus{outline:0}.search-bar .search-form form .input-search input::hover{border:initial}.search-bar .search-form form .search-btn button{border-radius:0 5px 5px 0;height:100%;background:#f10e34;border:initial;padding:0 1.75rem}.search-bar .search-form form .search-btn button i{color:#ffffff}.search-bar .cart{display:flex;flex-direction:row}.search-bar .cart .cart-icon{order:1;flex-grow:1;flex-shrink:1;width:1rem}.search-bar .cart .cart-icon i{color:#ffffff}.search-bar .cart .cart-total{order:1;flex-grow:1;flex-shrink:1}

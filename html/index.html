@@ -1,6 +1,11 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
   <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
     <!-- |-->
     <!-- |---------------------------------------------------------------------------->
     <!-- | css-->
@@ -9,23 +14,11 @@
     <!-- |-->
     <!-- bootstrap 4-->
     <!-- font-awosome-->
-    <link rel="stylesheet" href="libs/css/all.css"/>
-    <link rel="stylesheet" href="libs/css/bootstrap.css"/>
+    <link rel="stylesheet" type="text/css" href="libs/css/all.css"/>
+    <link rel="stylesheet" type="text/css" href="libs/css/bootstrap.min.css"/>
     <!--my css-->
-    <link rel="stylesheet" href="libs/css/style.min.css"/>
-    <meta charset="utf-8"/>
+    <link rel="stylesheet" type="text/css" href="libs/css/style.min.css"/>
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&amp;display=swap" rel="stylesheet"/>
-    <title>index</title>
-  </head>
-  <body>
-    <!-- start header-->
-    <header></header>
-    <!-- end header-->
-    <!-- start conten-->
-    <div class="conten"></div>
-    <!--end contends-->
-    <!-- start footer-->
-    <footer></footer>
     <!-- end footer-->
     <!-- |-->
     <!-- |-->
@@ -36,9 +29,58 @@
     <!-- |-->
     <!-- |-->
     <script src="libs/js/jquery.js"></script>
-    <script src="libs/js/popper.min.js.min.js"></script>
+    <script src="libs/js/popper.min.js"></script>
     <script src="libs/js/swiper.min.js"></script>
     <script src="libs/js/bootstrap.min.js"></script>
     <script src="libs/js/main.js"></script>
+    <title>index</title>
+  </head>
+  <body>
+    <!-- start header-->
+    <header>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <nav class="navbar navbar-expand-lg navbar-light bg-faded"><a href="#" class="navbar-brand my-auto"> <img src="libs/img/MarketSupply.png" alt="sdasd" class="card-img-top"/></a>
+              <button type="button" data-toggle="collapse" data-target="#navbarCollapse" class="navbar-toggler navbar-toggler-right"><span class="navbar-toggler-icon"></span></button>
+              <div id="navbarCollapse" class="collapse navbar-collapse flex-md-column">
+                <ul class="navbar-nav ml-auto small Quick-Links">
+                  <li class="nav-item"><a href="#" class="nav-link">my account </a></li>
+                  <li class="nav-item"><a href="#" class="nav-link">Wishlish </a></li>
+                  <li class="nav-item"><a href="#" class="nav-link">My Cart </a></li>
+                  <li class="nav-item"><a href="#" class="nav-link">checkout </a></li>
+                  <li class="nav-item"><a href="#" class="nav-link">login</a></li>
+                </ul>
+                <div class="search-bar">
+                  <div class="search-form">
+                    <form action="" method="get">
+                      <div class="input-search">
+                        <input type="text" name="" placeholder="search here..."/>
+                      </div>
+                      <div class="search-btn">
+                        <button type="submit"><i class="far fa-search"></i></button>
+                      </div>
+                    </form>
+                  </div>
+                  <div class="cart">
+                    <div class="cart-icon"><i class="far fa-shopping-cart"></i></div>
+                    <div class="cart-total">
+                      <p>total</p>
+                      <p> <b># </b>lorem</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- end header-->
+    <!-- start conten-->
+    <div class="conten"></div>
+    <!--end contends-->
+    <!-- start footer-->
+    <footer></footer>
   </body>
 </html>

@@ -1,0 +1,87 @@
+//output:index.html
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+html(xmlns="http://www.w3.org/1999/xhtml")
+  head
+    meta(charset="utf-8")
+    meta( name="viewport" content="width=device-width, initial-scale=1.0")
+    meta(http-equiv="X-UA-Compatible" content="ie=edge")
+    // |
+    // |--------------------------------------------------------------------------
+    // | css
+    // |--------------------------------------------------------------------------
+    // |
+    // |
+    // bootstrap 4
+    // font-awosome
+    link(rel='stylesheet' type="text/css" href='libs/css/all.css')
+    link(rel='stylesheet' type="text/css" href='libs/css/bootstrap.min.css')
+    //my css
+    link(rel='stylesheet' type="text/css" href='libs/css/style.min.css')
+    link(href='https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap' rel='stylesheet')
+    // end footer
+    // |
+    // |
+    // |
+    // |--------------------------------------------------------------------------
+    // | javascript
+    // |--------------------------------------------------------------------------
+    // |
+    // |
+      
+    script(src='libs/js/jquery.js')
+    script(src='libs/js/popper.min.js')
+    script(src='libs/js/swiper.min.js')
+    script(src='libs/js/bootstrap.min.js')
+    script(src='libs/js/main.js')
+    title index
+    
+  body
+    // start header
+    header
+      .container
+        .row
+          .col-md-12
+            nav.navbar.navbar-expand-lg.navbar-light.bg-faded
+              a.navbar-brand.my-auto(href='#') 
+                img.card-img-top(src='libs/img/MarketSupply.png' alt='sdasd')
+              button.navbar-toggler.navbar-toggler-right(type='button' data-toggle='collapse' data-target='#navbarCollapse')
+                span.navbar-toggler-icon
+              #navbarCollapse.collapse.navbar-collapse.flex-md-column
+                ul.navbar-nav.ml-auto.small.Quick-Links
+                  li.nav-item
+                    a.nav-link(href='#') my account 
+                  li.nav-item
+                    a.nav-link(href='#') Wishlish 
+                  li.nav-item
+                    a.nav-link(href='#') My Cart 
+                  li.nav-item
+                    a.nav-link(href='#') checkout 
+                  li.nav-item
+                    a.nav-link(href='#') login
+                .search-bar
+                  .search-form
+                    form(action="", method="get")
+                      .input-search
+                        input(type="text", name="" placeholder="search here...")
+                      .search-btn
+                        button(type="submit")
+                          i.far.fa-search
+                  .cart
+                    .cart-icon
+                      i.far.fa-shopping-cart
+                    .cart-total
+                      p total
+                      p 
+                        b # 
+                        | lorem
+                        
+      
+    // end header
+    // start conten
+    .conten
+      
+    //end contends
+    // start footer
+    footer
+    
