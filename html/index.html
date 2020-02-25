@@ -1,11 +1,11 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-  <head>
-    <meta charset="utf-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <!-- |-->
     <!-- |---------------------------------------------------------------------------->
     <!-- | css-->
@@ -14,11 +14,14 @@
     <!-- |-->
     <!-- bootstrap 4-->
     <!-- font-awosome-->
-    <link rel="stylesheet" type="text/css" href="libs/css/all.css"/>
-    <link rel="stylesheet" type="text/css" href="libs/css/bootstrap.min.css"/>
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
+
+    <link rel="stylesheet" type="text/css" href="libs/css/all.css" />
+    <link rel="stylesheet" type="text/css" href="libs/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="libs/css/swiper.min.css" />
     <!--my css-->
-    <link rel="stylesheet" type="text/css" href="libs/css/style.min.css"/>
-    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&amp;display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" type="text/css" href="libs/css/style.min.css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
     <!-- end footer-->
     <!-- |-->
     <!-- |-->
@@ -28,59 +31,150 @@
     <!-- |---------------------------------------------------------------------------->
     <!-- |-->
     <!-- |-->
-    <script src="libs/js/jquery.js"></script>
-    <script src="libs/js/popper.min.js"></script>
-    <script src="libs/js/swiper.min.js"></script>
-    <script src="libs/js/bootstrap.min.js"></script>
-    <script src="libs/js/main.js"></script>
+
     <title>index</title>
-  </head>
-  <body>
+</head>
+
+<body>
     <!-- start header-->
     <header>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <nav class="navbar navbar-expand-lg navbar-light bg-faded"><a href="#" class="navbar-brand my-auto"> <img src="libs/img/MarketSupply.png" alt="sdasd" class="card-img-top"/></a>
-              <button type="button" data-toggle="collapse" data-target="#navbarCollapse" class="navbar-toggler navbar-toggler-right"><span class="navbar-toggler-icon"></span></button>
-              <div id="navbarCollapse" class="collapse navbar-collapse flex-md-column">
-                <ul class="navbar-nav ml-auto small Quick-Links">
-                  <li class="nav-item"><a href="#" class="nav-link">my account </a></li>
-                  <li class="nav-item"><a href="#" class="nav-link">Wishlish </a></li>
-                  <li class="nav-item"><a href="#" class="nav-link">My Cart </a></li>
-                  <li class="nav-item"><a href="#" class="nav-link">checkout </a></li>
-                  <li class="nav-item"><a href="#" class="nav-link">login</a></li>
-                </ul>
-                <div class="search-bar">
-                  <div class="search-form">
-                    <form action="" method="get">
-                      <div class="input-search">
-                        <input type="text" name="" placeholder="search here..."/>
-                      </div>
-                      <div class="search-btn">
-                        <button type="submit"><i class="far fa-search"></i></button>
-                      </div>
-                    </form>
-                  </div>
-                  <div class="cart">
-                    <div class="cart-icon"><i class="far fa-shopping-cart"></i></div>
-                    <div class="cart-total">
-                      <p>total</p>
-                      <p> <b># </b>lorem</p>
-                    </div>
-                  </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <nav class="navbar navbar-expand-lg navbar-light bg-faded">
+                        <a href="#" class="navbar-brand my-auto"> <img src="libs/img/MarketSupply.png" alt="sdasd" class="card-img-top" /></a>
+                        <button type="button" data-toggle="collapse" data-target="#navbarCollapse" class="navbar-toggler navbar-toggler-right"><span class="navbar-toggler-icon"></span></button>
+                        <div id="navbarCollapse" class="collapse navbar-collapse flex-md-column">
+                            <ul class="navbar-nav ml-auto small Quick-Links">
+                                <li class="nav-item"><a href="#" class="nav-link">My Account </a></li>
+                                <li class="nav-item"><a href="#" class="nav-link">Wishlish </a></li>
+                                <li class="nav-item"><a href="#" class="nav-link">My Cart </a></li>
+                                <li class="nav-item"><a href="#" class="nav-link">Checkout </a></li>
+                                <li class="nav-item"><a href="#" class="nav-link">Login</a></li>
+                            </ul>
+                            <div class="search-bar">
+                                <div class="search-form">
+                                    <form action="" method="get">
+                                        <div class="input-search">
+                                            <input type="text" name="" placeholder="search here..." />
+                                        </div>
+                                        <div class="search-btn">
+                                            <button type="submit"><i class="far fa-search"></i></button>
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="cart">
+                                    <div class="cart-icon"><i class="far fa-shopping-cart"></i></div>
+                                    <div class="cart-total">
+                                        <p>TOTAL</p>
+                                        <p> <b>$ </b>5000</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </nav>
                 </div>
-              </div>
-            </nav>
-          </div>
+            </div>
+
         </div>
-      </div>
     </header>
+    <section class="cate">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div id="cates">
+                        <i class="fas fa-bars"></i>
+                        <p>CATEGORIES</p>
+                    </div>
+                </div>
+                <div class="col-md-9">
+                    <div class="nav">
+                        <a href="javascript:void(0)" class="nav-link">CLOTHING</a>
+                        <a href="javascript:void(0)" class="nav-link">ELECTRONICS HOT</a>
+                        <a href="javascript:void(0)" class="nav-link">HEALTH AND BEAUTY</a>
+                        <a href="javascript:void(0)" class="nav-link">WATCHES</a>
+                        <a href="javascript:void(0)" class="nav-link">JEWELLERY</a>
+                        <a href="javascript:void(0)" class="nav-link">SHORE</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="index">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="arch-cates">
+                        <div class="arch-item"><i class="far fa-play-circle"></i><a href="javascript:void(0)">Clothing</a></div>
+                        <div class="arch-item"><i class="far fa-play-circle"></i><a href="javascript:void(0)">Electronics</a></div>
+                        <div class="arch-item"><i class="far fa-play-circle"></i><a href="javascript:void(0)">Shoes</a></div>
+                        <div class="arch-item"><i class="far fa-play-circle"></i><a href="javascript:void(0)">Watches</a></div>
+                        <div class="arch-item"><i class="far fa-play-circle"></i><a href="javascript:void(0)">Jewellery</a></div>
+                        <div class="arch-item"><i class="far fa-play-circle"></i><a href="javascript:void(0)">Health And Beauty</a></div>
+                        <div class="arch-item"><i class="far fa-play-circle"></i><a href="javascript:void(0)">Sport</a></div>
+                        <div class="arch-item"><i class="far fa-play-circle"></i><a href="javascript:void(0)">Home And Garden</a></div>
+                    </div>
+                </div>
+                <div class="col-md-9">
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="banner">
+                                    <div class="row">
+                                        <div class="col-7 sl1">
+                                            <p class="new-colage">COLLECTION 2020</p>
+                                            <p class="save">SAVE 50% FOR</p>
+                                            <p class="khauhieu">FIST PURCHASE</p>
+                                            <div class="buynow"><a href="javascript:void(0)">SHOP NOW</a></div>
+                                        </div>
+                                        <div class="col-5"></div>
+                                    </div>
+                                    <div class="row spect">
+                                        <div class="col-4">
+                                            <p>MONEY BACK</p>
+                                            <P>30 Days Money Back</P>
+                                        </div>
+                                        <div class="col-4">
+                                            <P> FREE SHIPING</P>
+                                            <P>Free Ship ON Order Over $99</P>
+                                        </div>
+                                        <div class="col-4">
+                                            <p>SPEACIAL SALE</p>
+                                            <p> Extra $5 Off All Items</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section id="new-pro">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="arch-hot"></div>
+                </div>
+                <div class="col-md-9"></div>
+            </div>
+        </div>
+    </section>
+
     <!-- end header-->
     <!-- start conten-->
     <div class="conten"></div>
     <!--end contends-->
     <!-- start footer-->
     <footer></footer>
-  </body>
+    <script src="libs/js/jquery.js"></script>
+    <script src="libs/js/popper.min.js"></script>
+    <script src="libs/js/swiper.min.js"></script>
+    <script src="libs/js/bootstrap.min.js"></script>
+    <script src="libs/js/main.js"></script>
+</body>
+
 </html>
